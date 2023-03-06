@@ -56,7 +56,7 @@ for(let i=0;i<arr.length;i++){
 }
 
 
-
+//fetching all data in another array of object
 let arr2 = [...arr]
 console.log(arr2)
 
