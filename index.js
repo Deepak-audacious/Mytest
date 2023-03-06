@@ -59,14 +59,13 @@ console.log(arrayUniqueByName);
 
 
 //Q 2    fetch particular user by id.
-for(let i=0;i<arr.length;i++){
-    console.log(arr[i].id[1])//  iterating particular user.
-}
+// for(let i=0;i<arr.length;i++){
+//     console.log(arr[i])//  iterating particular user.
+// }
 
-
-//fetching all data in another array of object
-let arr2 = [...arr]
-console.log(arr2)
+//Q 2    fetch particular user by id.
+const arrOfobject = arr.find(obj => obj.id === 3);
+console.log(arrOfobject)
 
 
 
